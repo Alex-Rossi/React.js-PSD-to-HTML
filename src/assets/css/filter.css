@@ -1,0 +1,133 @@
+.filter {
+    width: 250px;
+    min-height: 700px;
+    margin-right: 60px;
+    margin-top: 60px;
+    text-align: center;
+    font-family: PagesGrotesqueRegular, PagesGrotesqueBold;
+}
+
+.filter .title {
+    font-size: 40px;
+    color: #71969f;
+}
+
+.filter .status {
+    font-size: 40px;
+    color: #313131;
+}
+
+.status-grid-system {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.status-left {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.status-right {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 100%;
+}
+
+.status-property, .price-property {
+    color: #4a3636;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.horizontal-line {
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    width: 90%;
+    border: 1px solid #71969f;
+}
+
+.vertical-line {
+    border: 1px solid #71969f;
+    height: 60px;
+}
+
+.filter .market-price {
+    font-size: 40px;
+    color: #313131;
+}
+
+.price-grid-system {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 60px;
+}
+
+.price-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90px;
+}
+
+.price-horizontal-line {
+    border: 1px solid #71969f;
+    height: 22px;
+}
+
+.filter .market-collecitons {
+    font-size: 40px;
+    color: #313131;
+}
+
+.space {
+    height: 10px;
+    width: 100%;
+}
+
+.collection-horizontal-line {
+    border: 1px solid #71969f;
+    margin-top: 10px;
+}
+
+.force-letter {
+    font-size: 24px;
+    color: #71969f;
+    font-weight: 600;
+    font-family: revert;
+    margin-top: 5px;
+}
+
+.mt-17 {
+    margin-top: 17px;
+}
+
+.market-chains {
+    font-size: 40px;
+    color: #313131;
+    margin-top: 20px;
+}
+
+.market-sale {
+    font-size: 40px;
+    color: #313131;
+}
+
+.market-chain-property {
+    font-family: cursive;
+    color: #4a3636;
+    font-weight: 500;
+    font-size: 17px;
+    margin-top: 10px;
+}

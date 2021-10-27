@@ -1,0 +1,137 @@
+.header {
+    max-width: 1166px;
+    margin: 0 auto;
+    position: relative;
+    padding: 22px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: PagesGrotesqueRegular, PagesGrotesqueBold;
+}
+
+.logo {
+    width: 226px;    
+}
+
+.logo-img {
+    text-align: center;
+}
+
+.menu-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 8px;
+    margin-right: -100px;
+}
+
+.menu-link {
+    font-size: 22px;
+    padding: 0px 22px;
+    border-right: 2px solid #313131;
+}
+
+.menu-link:last-child {
+    border-right: none;
+}
+
+.menu-link:hover {
+    cursor: pointer;
+}
+
+.menu-bar .active {
+    font-weight: bold;
+}
+
+.search-icon {
+    padding-right: 0px;
+}
+
+.search-icon:hover {
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    display: none;
+}
+
+.mobile-menu {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.hamburger-menu:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1104px) { 
+    .menu-link {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .menu-bar {
+        display: none;
+    }
+
+    .search-icon {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+        padding-right: 48px;
+        padding-bottom: 8px;
+    }
+
+    .hamburger-menu i {
+        font-size: 26px;
+    }
+
+    .mobile-menu {
+        background-color: black;
+        color: #fff;
+        overflow: hidden;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .mobile-link {
+        font-size: 18px;
+        padding: 8px 6px;
+        border-bottom: 1px solid #fff;
+    }
+
+    .mobile-link:hover {
+        cursor: pointer;
+        background-color: #333;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo {
+        width: 156px;
+    }
+
+    .hamburger-menu {
+        padding-right: 20px;
+    }
+}
+
+.color-pink {
+    color: #ff41cc;
+}
+
+.color-brown {
+    color: #d5bfa0;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #313131;
+}
