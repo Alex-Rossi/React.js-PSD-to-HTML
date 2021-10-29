@@ -188,7 +188,7 @@ class Market extends Component {
                         </div>
                         <div class="offer-info">
                             <div className="display-flex cursorPointer"><img className="img-responsive" src={smallUpDown} /></div>
-                            <div style={{fontSize: "16px", fontFamily: "system-ui"}}>{props.offerFor}</div>
+                            <div style={{fontSize: "16px"}}>{props.offerFor}</div>
                         </div>
                     </div>
                 </div>
