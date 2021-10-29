@@ -35,7 +35,7 @@ class Filter extends Component {
                 <div className="status-property">TOP SELLER 1</div>
                 <div className="collection-horizontal-line"></div>
                 <div className="force-letter">THOUSIMGRL</div>
-                <div className="status-property mt-17">TOP SELLER 2</div>
+                <div className="status-property font-family-2 mt-17">TOP SELLER 2</div>
                 <div className="collection-horizontal-line"></div>
                 <div className="force-letter">CATLAND METAVERSE</div>
                 <div className="status-property mt-17">TOP SELLER 3</div>
