@@ -15,10 +15,10 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/wallet" component={Wallet} />
+          <Route path="/market" component={Wallet} />
           <Route path="/artist" component={Artists} />
           <Route path="/collector" component={Collector} />
-          <Route path="/market" component={Market} />
+          <Route path="/wallet" component={Market} />
           <Route path="/" component={Home} />
         </Switch>
       </Router>
