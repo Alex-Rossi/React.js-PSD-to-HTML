@@ -1,6 +1,8 @@
 .collector {
     padding: 50px 20px;
-    font-family: PagesGrotesqueRegular, PagesGrotesqueBold;
+    font-family: PagesGrotesqueRegular, PagesGrotesqueBold, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
+                 PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo,
+                 PagesGrotesqueRegularDemo, QfortheMemories;
 }
 .top-collectors {
     max-width: 1166px;

@@ -6,7 +6,9 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    font-family: PagesGrotesqueRegular, PagesGrotesqueBold;
+    font-family: PagesGrotesqueRegular, PagesGrotesqueBold, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
+                 PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo,
+                 PagesGrotesqueRegularDemo, QfortheMemories;
 }
 
 .logo {

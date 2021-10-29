@@ -7,6 +7,7 @@ import './App.css';
 import Market from './pages/Market';
 import Collector from './pages/Collector';
 import Artists from './pages/Artists';
+import Wallet from './pages/Wallet';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Router>
         <Header />
         <Switch>
+          <Route path="/wallet" component={Wallet} />
           <Route path="/artist" component={Artists} />
           <Route path="/collector" component={Collector} />
           <Route path="/market" component={Market} />

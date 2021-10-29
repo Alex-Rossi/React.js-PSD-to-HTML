@@ -1,7 +1,9 @@
 .artists {
     padding: 50px 20px;
     padding-bottom: 100px;
-    font-family: PagesGrotesqueRegular, PagesGrotesqueBold;
+    font-family: PagesGrotesqueRegular, PagesGrotesqueBold, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
+                 PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo,
+                 PagesGrotesqueRegularDemo, QfortheMemories;
 }
 .artist-espen-kluge {
     max-width: 1194px;
