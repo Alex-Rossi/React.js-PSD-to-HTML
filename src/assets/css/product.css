@@ -1,9 +1,6 @@
 .product {
     width: 275px;
     position: relative;
-    font-family: PagesGrotesqueRegular, PagesGrotesqueBold, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
-                 PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo,
-                 PagesGrotesqueRegularDemo, QfortheMemories;
 }
 
 .like-badge {

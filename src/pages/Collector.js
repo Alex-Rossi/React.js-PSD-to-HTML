@@ -176,7 +176,7 @@ class Collector extends Component {
 
     render() {
         return (
-            <div className="collector">
+            <div className="collector font-family-2">
                 <div className="top-collectors">
                     <div className="img-container">
                         <img className="img-responsive" src={top_collector} />

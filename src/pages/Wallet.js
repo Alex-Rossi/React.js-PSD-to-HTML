@@ -188,7 +188,7 @@ class Market extends Component {
                         </div>
                         <div class="offer-info">
                             <div className="display-flex cursorPointer"><img className="img-responsive" src={smallUpDown} /></div>
-                            <div style={{fontSize: "16px"}}>{props.offerFor}</div>
+                            <div style={{fontSize: "16px", fontFamily: "system-ui"}}>{props.offerFor}</div>
                         </div>
                     </div>
                 </div>
@@ -198,7 +198,7 @@ class Market extends Component {
 
     render() {
         return (
-            <div className="market">
+            <div className="market font-family-2">
                 <Filter />                
                 <div className="market-content">
                     <FilterBar />

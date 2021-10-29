@@ -4,9 +4,6 @@
     justify-content: space-between;
     margin: 0 auto;
     padding: 0 20px 133px 20px;
-    font-family: PagesGrotesqueRegular, PagesGrotesqueBold, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
-                 PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo,
-                 PagesGrotesqueRegularDemo, QfortheMemories;
 }
 
 .market-content {
@@ -93,7 +90,6 @@
 .title-info {
     font-size: 16px;
     font-weight: 400;
-    /* font-family: system-ui; */
 }
 
 .market-item-galaxy {
@@ -105,7 +101,6 @@
 
 .galaxy-club {
     color: #54c4ca;
-    /* font-family: system-ui; */
 }
 
 .galaxy-price {
@@ -118,7 +113,6 @@
     margin-left: 10px;
     font-size: 20px;
     font-weight: 500;
-    /* font-family: system-ui; */
 } 
 
 .market-offer {

@@ -14,7 +14,7 @@ class FilterBar extends Component {
         ];
 
         return (
-            <div className="filter-bar">
+            <div className="filter-bar font-family-1">
                 <div className="result-count">
                     <span>15616358</span>
                     <span>RESULTS</span>

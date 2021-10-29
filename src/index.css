@@ -1,8 +1,14 @@
 @font-face {
-  font-family: 'PagesGrotesqueRegular';
+  font-family: 'PagesGrotesqueRegularDemo';
   src: url("./assets/fonts/PagesGrotesqueRegularDemo.otf") format('opentype');
 }
 
+@font-face {
+  font-family: 'QfortheMemories';
+  src: url("./assets/fonts/QfortheMemories.otf") format('opentype');
+} 
+
+/* 
 @font-face {
   font-family: 'PagesGrotesqueBoldDemo';
   src: url("./assets/fonts/PagesGrotesqueBoldDemo.otf") format('opentype');
@@ -42,9 +48,9 @@
 
 
 @font-face {
-  font-family: 'PagesGrotesqueRegularDemo';
+  font-family: 'PagesGrotesqueRegular';
   src: url("./assets/fonts/PagesGrotesqueRegularDemo.otf") format('opentype');
-}
+} */
 
 
 /* @font-face {
@@ -56,19 +62,11 @@
   font-family: 'PagesGrotesqueThinItalicDemo';
   src: url("./assets/fonts/PagesGrotesqueThinItalicDemo.otf") format('opentype');
 } */
-/* 
-@font-face {
-  font-family: 'QfortheMemories';
-  src: url("./assets/fonts/QfortheMemories.otf") format('opentype');
-}  */
-
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
                 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
-                PagesGrotesqueRegular, PagesGrotesqueBoldDemo, PagesGrotesqueBlackDemo, PagesGrotesqueBlackItalicDemo,
-                PagesGrotesqueBoldItalicDemo, PagesGrotesqueItalicDemo, PagesGrotesqueLightItalicDemo, PagesGrotesqueLightDemo, 
                 PagesGrotesqueRegularDemo, QfortheMemories,
                 sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -78,4 +76,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.font-family-1 {
+  font-family: "PagesGrotesqueRegularDemo" !important;
+}
+
+.font-family-2 {
+  font-family: "QfortheMemories" !important;
 }

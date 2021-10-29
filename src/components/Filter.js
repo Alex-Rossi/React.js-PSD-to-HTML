@@ -4,7 +4,7 @@ import "../assets/css/filter.css";
 class Filter extends Component {
     render() {
         return (
-            <div className="filter">
+            <div className="filter font-family-1">
                 <div className="title">FILTER</div>
                 <div className="status">STATUS</div>
                 <div className="status-grid-system">

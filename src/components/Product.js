@@ -4,7 +4,7 @@ import '../assets/css/product.css';
 class Product extends Component {
     render() {
         return (
-            <div className="product">
+            <div className="product font-family-1">
                 <div className="like-badge">
                     <i className="fa fa-heart"></i>
                     <span>8</span>

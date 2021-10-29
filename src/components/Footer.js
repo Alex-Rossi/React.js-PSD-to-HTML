@@ -10,7 +10,7 @@ import 'font-awesome/css/font-awesome.min.css';
 class Footer extends Component {
     render() {
         return (
-            <div className="footer-container">
+            <div className="footer-container font-family-1">
                 <div className="footer">
                     <div className="left">
                         <div className="footer-text">

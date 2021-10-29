@@ -93,7 +93,7 @@ class Home extends Component {
                     </div>
                     <div className="price">
                         <span>{props.coinPrice}</span>
-                        <span className="real-price">[{props.realPrice}]</span>
+                        <span className="real-price">[${props.realPrice}]</span>
                     </div>
                     <div className="end-block">
                         AUCTION ENDS IN {props.endBlocks}BLOCKS
@@ -124,7 +124,7 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="home">
+            <div className="home font-family-2">
                 <Carousel showThumbs={false} dynamicHeight={true} autoPlay={true} infiniteLoop={true} showIndicators={false}>
                     <div className="slide-item">
                         <img className="img-responsive" src={slide1} />

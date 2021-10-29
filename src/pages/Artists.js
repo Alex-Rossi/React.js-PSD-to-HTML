@@ -117,7 +117,7 @@ class Artists extends Component {
 
     render() {
         return (
-            <div className="artists">
+            <div className="artists font-family-2">
                 <div className="artist-espen-kluge">
                     <img className="img-responsive" src={artistsBrand} />
                 </div>
