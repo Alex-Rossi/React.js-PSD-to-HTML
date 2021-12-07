@@ -3,21 +3,48 @@
     padding-bottom: 100px;
 }
 
-.live-auctions {
-    max-width: 1166px;
-    min-height: 100px;
-    background-color: #d71a21;
+.drop-subscription {
+    max-width: 1034px;
+    min-height: 188px;
     margin: 0 auto;
-    padding-bottom: 10px;
-    margin-bottom: 26px;
-    margin-top: 100px;
+    margin-bottom: 63px;
+    margin-top: 70px;
+    text-align: center;
 }
 
-.live-auctions .img-container {
+.drop-subscription .img-container {
     text-align: center;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-bottom: 25px;
+}
+
+.drop-subscription .subscription button {
+    height: 50px;
+    width: 195px;
+    font-size: 27px;
+    font-weight: 800;
+    background-color: #fc0000;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+}
+
+.tools {
+    max-width: 1080px;
+    min-height: 271px;
+    margin: 0px auto;
+    margin-top: 40px;
+}
+
+.featured-art-title {
+    max-width: 658px;
+    min-height: 100px;
+    margin: 0px auto;
+    margin-top: 95px;
+    margin-bottom: 55px;
+}
+
+.featured-art-name {
+    font-size: 34px;
 }
 
 .auction-date {
@@ -55,8 +82,8 @@
     top: 40px;
 }
 
-.reserve-met-background-first {
-    background-color: #d71a9b;
+.reserve-met-background {
+    background-color: #b4aca0;
 }
 
 .reserve-met-background-second {
@@ -106,6 +133,7 @@
 
 .price {
     margin-top: 10px;
+    font-size: 30px;
 }
 
 .real-price {
@@ -114,6 +142,7 @@
 
 .end-block {
     margin-top: 10px;
+    font-weight: initial;
 }
 
 .end-block i {
@@ -128,11 +157,12 @@
 }
 
 .time-value {
-    font-size: 24px;
+    font-size: 30px;
 }
 
 .time-caption {
     margin-top: 10px;
+    font-weight: initial;
 }
 
 @media only screen and (max-width: 1114px) {
@@ -161,6 +191,14 @@
     padding-bottom: 10px;
     margin-bottom: 26px;
     margin-top: 100px;
+}
+
+.live-auctions {
+    max-width: 600px;
+    min-height: 110px;
+    margin: 0 auto;
+    margin-bottom: 47px;
+    margin-top: 70px;
 }
 
 .featured-art .img-container {
@@ -214,11 +252,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 137px;
 }
 
 .top-item {
     max-width: 360px;
+    margin-bottom: 50px;
 }
 
 .top-item-caption {
@@ -244,21 +282,12 @@
     }
 }
 
-.top-collectors {
-    max-width: 1166px;
-    min-height: 100px;
-    background-color: #31d7d7;
-    margin: 0 auto;
-    padding-bottom: 30px;
-    margin-bottom: 26px;
-    margin-top: 100px;
-}
-
-.top-collectors .img-container {
-    text-align: center;
-    padding-top: 30px;
-    padding-left: 20px;
-    padding-right: 20px;
+.top-collectors-title {
+    margin: 0px auto;
+    margin-top: 120px;
+    margin-bottom: 70px;
+    max-width: 930px;
+    min-height: 115px;
 }
 
 .top-collectors-content {
@@ -279,7 +308,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #31d7d7;
+    color: white;
     font-size: 20px; 
     min-height: 55px;
 }
@@ -297,4 +326,147 @@
 
 .text-align-center {
     text-align: center;
+}
+
+.nfts {
+    width: 100%;
+    background-color: #414950;
+    margin-top: 40px;
+}
+
+.nfts .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nfts .img-container .img-responsive {
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+.nfts .carousels {
+    display: flex;
+}
+
+.nfts .carousels .img-container {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.nfts .carousels .img-container .img-responsive {
+    width: 100%;
+}
+
+.carousel-name {
+    font-size: 14px;
+    color: white;
+}
+
+@media only screen and (max-width: 750px) {
+    .carousel-name {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 615px) {
+    .carousel-name {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 525px) {
+    .carousel-name {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .carousel-name {
+        font-size: 6px;
+    }
+}
+
+.top-artists {
+    max-width: 560px;
+    min-height: 115px;
+    margin: 0px auto;
+    margin-top: 95px;
+    margin-bottom: 85px;
+}
+
+.top-item-author .img-responsive {
+    width: 100%;
+}
+
+.learn-more {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 75px;
+    margin-bottom: 120px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.learn-more-subscription button {
+    height: 50px;
+    width: 195px;
+    font-size: 15px;
+    background-color: #000000;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.create-nft {
+    max-width: 1060px;
+    min-height: 150px;
+    margin: 0px auto;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.create-nft .vertical-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-nft .up-down {
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.create-nft .up-down button {
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.carousel-colulmn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.width-100 {
+    width: 100%;
+}
+
+.react-multi-carousel-track {
+    margin-bottom: 45px;
 }

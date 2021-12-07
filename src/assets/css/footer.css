@@ -8,7 +8,7 @@
 }
 
 .footer {
-    max-width: 1166px;
+    max-width: 780px;
     min-height: 500px;
     margin: 0 auto;
     display: flex;
@@ -17,10 +17,12 @@
 
 .left {
     font-weight: bold;
-    color: #00d0d0;
-    width: 78%;
+    color: white;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .right {
@@ -28,14 +30,13 @@
 }
 
 .footer-text {
-    width: 40%;
-    font-size: 70px;
+    max-width: 195px;
+    font-size: 42px;
 }
 
 .center {
-    margin-top: 50px;
     padding: 0px 16px 0px 26px;
-    width: 58%;
+    width: calc(100% - 195px);
 }
 
 .subscribe-form {
@@ -64,7 +65,7 @@
 .subscribe-form input[type="button"] {
     padding: 30px 40px;
     font-size: 20px;
-    background-color: #ef018d;
+    background-color: #b6a48c;
     border: none;
     text-align: left;
     color: #fff;
@@ -86,7 +87,7 @@
 }
 
 .social-links div {
-    background-color: #ef018d;
+    background-color: #b6a48c;
     border-radius: 5px;
     width: 40px;
     height: 40px;
@@ -97,6 +98,7 @@
 
 .social-links div i {
     font-size: 30px;
+    color: #2e2e2e;
 }
 
 @media only screen and (max-width: 1100px) { 
@@ -144,4 +146,8 @@
     .footer-text {
         font-size: 50px;
     }
+}
+
+.firstName {
+    margin-top: 0px !important;
 }

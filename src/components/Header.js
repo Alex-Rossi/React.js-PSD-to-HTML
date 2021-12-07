@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../assets/css/header.css';
 import logo from '../assets/img/logo.png';
-import search_icon from '../assets/img/search-icon.png';
+import search_icon from '../assets/img/new_home/search-icon.png';
 import 'font-awesome/css/font-awesome.min.css';
 
 class Header extends Component {

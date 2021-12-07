@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../assets/css/footer.css';
 import footer_author_big from '../assets/img/footer-author-big.png';
 import footer_author from '../assets/img/footer-author.png';
-import footer_logo from '../assets/img/footer-logo.png';
+import footer_logo from '../assets/img/new_home/footerNFT.png';
 import pop from '../assets/img/pop.png';
 import pencil from '../assets/img/pencil.png';
 import 'font-awesome/css/font-awesome.min.css';
@@ -17,11 +17,11 @@ class Footer extends Component {
                             <div>SIGN UP FOR EXCLUSIVE RELEASES AND NEWS</div>
                         </div>
                         <div className="center">
-                            <div className="image-container">
+                            {/* <div className="image-container">
                                 <img className="img-responsive" src={pencil} />
-                            </div>
+                            </div> */}
                             <div className="subscribe-form">
-                                <div>
+                                <div className="firstName">
                                     <input type="text" placeholder="FIRST NAME" />
                                 </div>
                                 <div>
@@ -67,7 +67,7 @@ class Footer extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="right">
+                    {/* <div className="right">
                         <div>
                             <img className="img-responsive" src={footer_author_big} alt="photo 1" />
                         </div>
@@ -77,7 +77,7 @@ class Footer extends Component {
                         <div>
                             <img className="img-responsive" src={footer_author} alt="photo 1" />
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         )
